@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Dictionary Lookup</title>
+  </head>
+
+  <body>
+    <div id="container" class="container">
+      <h1 class="header">Dictionary Lookup</h1>
+      <label id="word" for="wordInput">Enter the word and press enter:</label>
+      <input
+        type="text"
+        name="Dictionary-Word"
+        id="input"
+        class="input"
+        placeholder="search word ex:'ball'"
+      />
+      <div class="output-container" id="output-container">
+        <p>Word Title: <span class="title" id="title">____</span></p>
+        <p>Meaning: <span class="meaning" id="meaning">____</span></p>
+        <audio src="" controls id="audio"></audio>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
